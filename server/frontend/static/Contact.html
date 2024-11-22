@@ -3,6 +3,34 @@
 <head>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .main-card {
+            width: 80%;
+            margin: 5% auto;
+        }
+        .inner-card {
+            display: flex;
+            justify-content: center;
+        }
+        .card img {
+            width: 100%;
+        }
+        .banner h1 {
+            text-align: center;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .card-body .title {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
@@ -27,24 +55,23 @@
         </div>
     </nav>
 
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+    <div class="card main-card">
         <div class="banner" name="about-header">
         <!-- Insert header information here -->
           <h1>Contact Us</h1>
           Best Cars
         </div>
-        <div style="display: flex;flex-direction: row; margin:auto">
-        <div class="card" style="width: 30%;">
-          <img class="card-img-top" src="/static/contactus.png" alt="Card image">
-          <div class="card-body">
-            <p class="title">HOTLINE: 677817</p>
-            <p></p>
-            <p class="card-text">Please contact us for more information about our company. Thank you for your visiting.</p>
-            <p>Email: bestcarscompany@gmail.com</p>
-          </div>
+        <div class="inner-card">
+            <div class="card" style="width: 30%;">
+                <img class="card-img-top" src="/static/contactus.png" alt="Card image">
+                <div class="card-body">
+                    <p class="title">HOTLINE: 677817</p>
+                    <p></p>
+                    <p class="card-text">Please contact us for more information about our company. Thank you for your visiting.</p>
+                    <p>Email: bestcarscompany@gmail.com</p>
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
-      </div>
+    </div>
 </body>
 </html>
